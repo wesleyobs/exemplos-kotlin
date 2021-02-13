@@ -19,7 +19,7 @@ fun avaliacao(expressao: Expressao): Int {
 }
 
 fun main() {
-    // ((1 + 2) + 4)
+    //((1 + 2) + 4)
     val resultado = avaliacao(Soma(Soma(Numero(1), Numero(2)), Numero(4)))
 
 }
